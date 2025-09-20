@@ -1,4 +1,4 @@
-b_env/
+b_env*/
 .venv/
 
 __pycache__/
