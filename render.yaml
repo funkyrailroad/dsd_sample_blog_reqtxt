@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: "test project"
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash render_entrypoint.sh
+    plan: free
+envVars:
+  - key: DEBUG
+    value: false
