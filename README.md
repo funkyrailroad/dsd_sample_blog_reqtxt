@@ -11,7 +11,7 @@ $ python update_requirements.py
 $ uv pip install -r requirements.txt
 $ python manage.py check
 $ python manage.py runserver
-$ python manage.py test_deployed_app_functionality.py --url http://localhost:8000/ --flush-db
+$ python test_deployed_app_functionality.py --url http://localhost:8000/ --flush-db
 $ git commit -am "Updated requirements."
 ```
 
